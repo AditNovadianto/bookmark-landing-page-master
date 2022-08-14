@@ -8,7 +8,7 @@ import Questions from "./components/Questions";
 
 const App = () => {
   return (
-    <div>
+    <main>
       <Navbar />
       <Home />
       <Features />
@@ -16,7 +16,7 @@ const App = () => {
       <Questions />
       <ContactUs />
       <Footer />
-    </div>
+    </main>
   );
 };
 
